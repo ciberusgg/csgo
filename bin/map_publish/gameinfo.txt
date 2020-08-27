@@ -1,0 +1,13 @@
+"GameInfo"
+{
+	FileSystem
+	{
+		SteamAppId			745	
+		
+		SearchPaths
+		{
+			map_publish				|gameinfo_path|.
+			map_publish				platform
+		}
+	}
+}
