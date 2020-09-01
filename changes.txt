@@ -1,128 +1,64 @@
  .private-action                                    |     2 +-
- __steamcmd/linux32/crashhandler.so                 |     3 +
- __steamcmd/linux32/libstdc++.so.6                  |   Bin 0 -> 922059 bytes
- __steamcmd/linux32/libtier0_s.so                   |     3 +
- __steamcmd/linux32/libvstdlib_s.so                 |     3 +
- __steamcmd/linux32/steamclient.so                  |     3 +
- __steamcmd/linux32/steamcmd                        |   Bin 0 -> 5190488 bytes
- __steamcmd/linux32/steamconsole.so                 |     3 +
- __steamcmd/linux32/steamerrorreporter              |   Bin 0 -> 130612 bytes
- __steamcmd/linux64/steamclient.so                  |     3 +
- __steamcmd/package/steam_cmd_linux.installed       |   119 +
- __steamcmd/package/steam_cmd_linux.manifest        |    45 +
- ...186bec4abec5d6a7fd92f61c26b02f68d507cc_14711419 |   Bin 0 -> 14711172 bytes
- ...3ab7dfe35876c951abf83aec21d2640c5db0f24_1581407 |   Bin 0 -> 1581387 bytes
- ....a2579d4f33558caf8a7a8b18ef7e526a9feb1d5d_28154 |   Bin 0 -> 28154 bytes
- ...abf53f48603d0f8e14468e586dad6113c4c72f_36157276 |   Bin 0 -> 36156713 bytes
- __steamcmd/public/steambootstrapper_brazilian.txt  |    82 +
- __steamcmd/public/steambootstrapper_bulgarian.txt  |    82 +
- __steamcmd/public/steambootstrapper_czech.txt      |    82 +
- __steamcmd/public/steambootstrapper_danish.txt     |    82 +
- __steamcmd/public/steambootstrapper_dutch.txt      |    82 +
- __steamcmd/public/steambootstrapper_english.txt    |    44 +
- __steamcmd/public/steambootstrapper_finnish.txt    |    82 +
- __steamcmd/public/steambootstrapper_french.txt     |    82 +
- __steamcmd/public/steambootstrapper_german.txt     |    82 +
- __steamcmd/public/steambootstrapper_greek.txt      |    82 +
- __steamcmd/public/steambootstrapper_hungarian.txt  |    82 +
- __steamcmd/public/steambootstrapper_italian.txt    |    82 +
- __steamcmd/public/steambootstrapper_japanese.txt   |    82 +
- __steamcmd/public/steambootstrapper_korean.txt     |    82 +
- __steamcmd/public/steambootstrapper_koreana.txt    |    82 +
- __steamcmd/public/steambootstrapper_latam.txt      |    82 +
- __steamcmd/public/steambootstrapper_norwegian.txt  |    82 +
- __steamcmd/public/steambootstrapper_polish.txt     |    82 +
- __steamcmd/public/steambootstrapper_portuguese.txt |    82 +
- __steamcmd/public/steambootstrapper_romanian.txt   |    82 +
- __steamcmd/public/steambootstrapper_russian.txt    |    82 +
- __steamcmd/public/steambootstrapper_schinese.txt   |    82 +
- __steamcmd/public/steambootstrapper_spanish.txt    |    82 +
- __steamcmd/public/steambootstrapper_swedish.txt    |    82 +
- __steamcmd/public/steambootstrapper_tchinese.txt   |    82 +
- __steamcmd/public/steambootstrapper_thai.txt       |    82 +
- __steamcmd/public/steambootstrapper_turkish.txt    |    82 +
- __steamcmd/public/steambootstrapper_ukrainian.txt  |    82 +
- __steamcmd/public/steambootstrapper_vietnamese.txt |    82 +
- __steamcmd/siteserverui/linux64/LICENSE            |    20 +
- .../siteserverui/linux64/LICENSES.chromium.html    | 35253 +++++++++++++++++++
- .../linux64/blink_image_resources_200_percent.pak  |     3 +
- .../linux64/content_resources_200_percent.pak      |     3 +
- __steamcmd/siteserverui/linux64/content_shell.pak  |     3 +
- __steamcmd/siteserverui/linux64/icudtl.dat         |     3 +
- __steamcmd/siteserverui/linux64/libffmpeg.so       |     3 +
- __steamcmd/siteserverui/linux64/libnode.so         |     3 +
- __steamcmd/siteserverui/linux64/locales/am.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ar.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/bg.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/bn.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ca.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/cs.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/da.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/de.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/el.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/en-GB.pak  |     3 +
- __steamcmd/siteserverui/linux64/locales/en-US.pak  |     3 +
- __steamcmd/siteserverui/linux64/locales/es-419.pak |     3 +
- __steamcmd/siteserverui/linux64/locales/es.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/et.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/fa.pak     |     3 +
- .../siteserverui/linux64/locales/fake-bidi.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/fi.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/fil.pak    |     3 +
- __steamcmd/siteserverui/linux64/locales/fr.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/gu.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/he.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/hi.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/hr.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/hu.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/id.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/it.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ja.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/kn.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ko.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/lt.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/lv.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ml.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/mr.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ms.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/nb.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/nl.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/pl.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/pt-BR.pak  |     3 +
- __steamcmd/siteserverui/linux64/locales/pt-PT.pak  |     3 +
- __steamcmd/siteserverui/linux64/locales/ro.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ru.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/sk.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/sl.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/sr.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/sv.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/sw.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/ta.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/te.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/th.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/tr.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/uk.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/vi.pak     |     3 +
- __steamcmd/siteserverui/linux64/locales/zh-CN.pak  |     3 +
- __steamcmd/siteserverui/linux64/locales/zh-TW.pak  |     3 +
- __steamcmd/siteserverui/linux64/natives_blob.bin   |     3 +
- .../siteserverui/linux64/pdf_viewer_resources.pak  |     3 +
- __steamcmd/siteserverui/linux64/resources/app.asar |   Bin 0 -> 25640010 bytes
- .../siteserverui/linux64/resources/electron.asar   |   Bin 0 -> 240641 bytes
- __steamcmd/siteserverui/linux64/siteserverui       |   Bin 0 -> 73936109 bytes
- __steamcmd/siteserverui/linux64/snapshot_blob.bin  |     3 +
- .../linux64/ui_resources_200_percent.pak           |     3 +
- __steamcmd/siteserverui/linux64/version            |     1 +
- .../linux64/views_resources_200_percent.pak        |     3 +
- .../ff52d4cc462d49c0297b9bc0558b4ef4c3bdd9ae.zip   |     3 +
- __steamcmd/steamcmd.sh                             |    45 +
- __steamcmd_linux.tar.gz                            |   Bin 0 -> 2428523 bytes
- csgo.signatures                                    |     6 +-
- csgo/bin/client.dll                                |     4 +-
+ __steamcmd/linux32/crashhandler.so                 |     2 +-
+ __steamcmd/linux32/libstdc++.so.6                  |   Bin 922059 -> 922064 bytes
+ __steamcmd/linux32/libtier0_s.so                   |     2 +-
+ __steamcmd/linux32/libvstdlib_s.so                 |     4 +-
+ __steamcmd/linux32/steamclient.so                  |     4 +-
+ __steamcmd/linux32/steamcmd                        |   Bin 5190488 -> 5223049 bytes
+ __steamcmd/linux32/steamconsole.so                 |     4 +-
+ __steamcmd/linux32/steamerrorreporter              |   Bin 130612 -> 130612 bytes
+ __steamcmd/linux64/steamclient.so                  |     4 +-
+ __steamcmd/package/steam_cmd_linux.installed       |    30 +-
+ __steamcmd/package/steam_cmd_linux.manifest        |    36 +-
+ ...186bec4abec5d6a7fd92f61c26b02f68d507cc_14711419 |   Bin 14711172 -> 0 bytes
+ ...3ab7dfe35876c951abf83aec21d2640c5db0f24_1581407 |   Bin 1581387 -> 0 bytes
+ ...abf53f48603d0f8e14468e586dad6113c4c72f_36157276 |   Bin 36156713 -> 0 bytes
+ __steamcmd/public/steambootstrapper_brazilian.txt  |   164 +-
+ __steamcmd/public/steambootstrapper_bulgarian.txt  |   164 +-
+ __steamcmd/public/steambootstrapper_czech.txt      |   164 +-
+ __steamcmd/public/steambootstrapper_danish.txt     |   164 +-
+ __steamcmd/public/steambootstrapper_dutch.txt      |   164 +-
+ __steamcmd/public/steambootstrapper_english.txt    |    88 +-
+ __steamcmd/public/steambootstrapper_finnish.txt    |   164 +-
+ __steamcmd/public/steambootstrapper_french.txt     |   164 +-
+ __steamcmd/public/steambootstrapper_german.txt     |   164 +-
+ __steamcmd/public/steambootstrapper_greek.txt      |   164 +-
+ __steamcmd/public/steambootstrapper_hungarian.txt  |   164 +-
+ __steamcmd/public/steambootstrapper_italian.txt    |   164 +-
+ __steamcmd/public/steambootstrapper_japanese.txt   |   164 +-
+ __steamcmd/public/steambootstrapper_korean.txt     |   164 +-
+ __steamcmd/public/steambootstrapper_koreana.txt    |   164 +-
+ __steamcmd/public/steambootstrapper_latam.txt      |   164 +-
+ __steamcmd/public/steambootstrapper_norwegian.txt  |   164 +-
+ __steamcmd/public/steambootstrapper_polish.txt     |   164 +-
+ __steamcmd/public/steambootstrapper_portuguese.txt |   164 +-
+ __steamcmd/public/steambootstrapper_romanian.txt   |   164 +-
+ __steamcmd/public/steambootstrapper_russian.txt    |   164 +-
+ __steamcmd/public/steambootstrapper_schinese.txt   |   164 +-
+ __steamcmd/public/steambootstrapper_spanish.txt    |   164 +-
+ __steamcmd/public/steambootstrapper_swedish.txt    |   164 +-
+ __steamcmd/public/steambootstrapper_tchinese.txt   |   164 +-
+ __steamcmd/public/steambootstrapper_thai.txt       |   164 +-
+ __steamcmd/public/steambootstrapper_turkish.txt    |   164 +-
+ __steamcmd/public/steambootstrapper_ukrainian.txt  |   164 +-
+ __steamcmd/public/steambootstrapper_vietnamese.txt |   164 +-
+ __steamcmd/siteserverui/linux64/LICENSE            |    40 +-
+ .../siteserverui/linux64/LICENSES.chromium.html    | 70506 +++++++++----------
+ __steamcmd/siteserverui/linux64/resources/app.asar |   Bin 25640010 -> 25811299 bytes
+ __steamcmd/siteserverui/linux64/siteserverui       |   Bin 73936109 -> 73936840 bytes
+ __steamcmd_linux.tar.gz                            |   Bin 2428523 -> 2428561 bytes
+ bin/engine.dll                                     |     2 +-
+ csgo.signatures                                    |   148 +-
+ csgo/bin/client.dll                                |     2 +-
  csgo/bin/server.dll                                |     2 +-
- csgo/resource/csgo_brazilian.txt                   |   Bin 10268154 -> 10268330 bytes
- csgo/resource/csgo_ukrainian.txt                   |   Bin 10186896 -> 10186896 bytes
- csgo/steam.inf                                     |    10 +-
- steamapps/appmanifest_730.acf                      |    18 +-
+ csgo/panorama/code.pbin                            |   Bin 3528661 -> 3653954 bytes
+ csgo/resource/csgo_brazilian.txt                   |   Bin 10268330 -> 10268532 bytes
+ csgo/resource/csgo_dutch.txt                       |   Bin 9661402 -> 9679348 bytes
+ csgo/resource/csgo_italian.txt                     |   Bin 10448458 -> 10445248 bytes
+ csgo/resource/csgo_latam.txt                       |   Bin 10219122 -> 10243078 bytes
+ csgo/resource/csgo_schinese.txt                    |   Bin 8523108 -> 8523242 bytes
+ csgo/resource/csgo_tchinese.txt                    |   Bin 7718032 -> 7803490 bytes
+ csgo/steam.inf                                     |    16 +-
+ steamapps/appmanifest_730.acf                      |    23 +-
  steamapps/libraryfolders.vdf                       |     2 +-
- 127 files changed, 38061 insertions(+), 22 deletions(-)
+ 63 files changed, 37753 insertions(+), 37756 deletions(-)
