@@ -5,13 +5,13 @@
 	"name"		"Counter-Strike: Global Offensive"
 	"StateFlags"		"4"
 	"installdir"		"Counter-Strike Global Offensive"
-	"LastUpdated"		"1599002681"
+	"LastUpdated"		"1599606551"
 	"UpdateResult"		"0"
-	"SizeOnDisk"		"23355381354"
-	"buildid"		"5489124"
+	"SizeOnDisk"		"23303881026"
+	"buildid"		"5518106"
 	"LastOwner"		"76561199005609651"
-	"BytesToDownload"		"12150224"
-	"BytesDownloaded"		"12150224"
+	"BytesToDownload"		"278043920"
+	"BytesDownloaded"		"278043920"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -19,13 +19,13 @@
 	{
 		"732"
 		{
-			"manifest"		"3667578941773774225"
-			"size"		"364639515"
+			"manifest"		"2217172564666277880"
+			"size"		"364601627"
 		}
 		"731"
 		{
-			"manifest"		"8079655585713914965"
-			"size"		"22990741839"
+			"manifest"		"1601203381902450841"
+			"size"		"22939279399"
 		}
 		"735"
 		{

@@ -1,64 +1,26 @@
- .private-action                                    |     2 +-
- __steamcmd/linux32/crashhandler.so                 |     2 +-
- __steamcmd/linux32/libstdc++.so.6                  |   Bin 922059 -> 922064 bytes
- __steamcmd/linux32/libtier0_s.so                   |     2 +-
- __steamcmd/linux32/libvstdlib_s.so                 |     4 +-
- __steamcmd/linux32/steamclient.so                  |     4 +-
- __steamcmd/linux32/steamcmd                        |   Bin 5190488 -> 5223049 bytes
- __steamcmd/linux32/steamconsole.so                 |     4 +-
- __steamcmd/linux32/steamerrorreporter              |   Bin 130612 -> 130612 bytes
- __steamcmd/linux64/steamclient.so                  |     4 +-
- __steamcmd/package/steam_cmd_linux.installed       |    30 +-
- __steamcmd/package/steam_cmd_linux.manifest        |    36 +-
- ...186bec4abec5d6a7fd92f61c26b02f68d507cc_14711419 |   Bin 14711172 -> 0 bytes
- ...3ab7dfe35876c951abf83aec21d2640c5db0f24_1581407 |   Bin 1581387 -> 0 bytes
- ...abf53f48603d0f8e14468e586dad6113c4c72f_36157276 |   Bin 36156713 -> 0 bytes
- __steamcmd/public/steambootstrapper_brazilian.txt  |   164 +-
- __steamcmd/public/steambootstrapper_bulgarian.txt  |   164 +-
- __steamcmd/public/steambootstrapper_czech.txt      |   164 +-
- __steamcmd/public/steambootstrapper_danish.txt     |   164 +-
- __steamcmd/public/steambootstrapper_dutch.txt      |   164 +-
- __steamcmd/public/steambootstrapper_english.txt    |    88 +-
- __steamcmd/public/steambootstrapper_finnish.txt    |   164 +-
- __steamcmd/public/steambootstrapper_french.txt     |   164 +-
- __steamcmd/public/steambootstrapper_german.txt     |   164 +-
- __steamcmd/public/steambootstrapper_greek.txt      |   164 +-
- __steamcmd/public/steambootstrapper_hungarian.txt  |   164 +-
- __steamcmd/public/steambootstrapper_italian.txt    |   164 +-
- __steamcmd/public/steambootstrapper_japanese.txt   |   164 +-
- __steamcmd/public/steambootstrapper_korean.txt     |   164 +-
- __steamcmd/public/steambootstrapper_koreana.txt    |   164 +-
- __steamcmd/public/steambootstrapper_latam.txt      |   164 +-
- __steamcmd/public/steambootstrapper_norwegian.txt  |   164 +-
- __steamcmd/public/steambootstrapper_polish.txt     |   164 +-
- __steamcmd/public/steambootstrapper_portuguese.txt |   164 +-
- __steamcmd/public/steambootstrapper_romanian.txt   |   164 +-
- __steamcmd/public/steambootstrapper_russian.txt    |   164 +-
- __steamcmd/public/steambootstrapper_schinese.txt   |   164 +-
- __steamcmd/public/steambootstrapper_spanish.txt    |   164 +-
- __steamcmd/public/steambootstrapper_swedish.txt    |   164 +-
- __steamcmd/public/steambootstrapper_tchinese.txt   |   164 +-
- __steamcmd/public/steambootstrapper_thai.txt       |   164 +-
- __steamcmd/public/steambootstrapper_turkish.txt    |   164 +-
- __steamcmd/public/steambootstrapper_ukrainian.txt  |   164 +-
- __steamcmd/public/steambootstrapper_vietnamese.txt |   164 +-
- __steamcmd/siteserverui/linux64/LICENSE            |    40 +-
- .../siteserverui/linux64/LICENSES.chromium.html    | 70506 +++++++++----------
- __steamcmd/siteserverui/linux64/resources/app.asar |   Bin 25640010 -> 25811299 bytes
- __steamcmd/siteserverui/linux64/siteserverui       |   Bin 73936109 -> 73936840 bytes
- __steamcmd_linux.tar.gz                            |   Bin 2428523 -> 2428561 bytes
- bin/engine.dll                                     |     2 +-
- csgo.signatures                                    |   148 +-
- csgo/bin/client.dll                                |     2 +-
- csgo/bin/server.dll                                |     2 +-
- csgo/panorama/code.pbin                            |   Bin 3528661 -> 3653954 bytes
- csgo/resource/csgo_brazilian.txt                   |   Bin 10268330 -> 10268532 bytes
- csgo/resource/csgo_dutch.txt                       |   Bin 9661402 -> 9679348 bytes
- csgo/resource/csgo_italian.txt                     |   Bin 10448458 -> 10445248 bytes
- csgo/resource/csgo_latam.txt                       |   Bin 10219122 -> 10243078 bytes
- csgo/resource/csgo_schinese.txt                    |   Bin 8523108 -> 8523242 bytes
- csgo/resource/csgo_tchinese.txt                    |   Bin 7718032 -> 7803490 bytes
- csgo/steam.inf                                     |    16 +-
- steamapps/appmanifest_730.acf                      |    23 +-
- steamapps/libraryfolders.vdf                       |     2 +-
- 63 files changed, 37753 insertions(+), 37756 deletions(-)
+ __steamcmd/package/steam_cmd_linux.installed |   4 ++--
+ bin/engine.dll                               |   2 +-
+ csgo.exe                                     |   4 ++--
+ csgo.signatures                              |  10 ++++----
+ csgo/bin/client.dll                          |   4 ++--
+ csgo/bin/server.dll                          |   4 ++--
+ csgo/maps/de_anubis.bsp                      |   4 ++--
+ csgo/maps/de_mutiny.bsp                      |   4 ++--
+ csgo/panorama/code.pbin                      | Bin 3653954 -> 3653954 bytes
+ csgo/resource/csgo_dutch.txt                 | Bin 9679348 -> 9686348 bytes
+ csgo/resource/csgo_greek.txt                 | Bin 10480840 -> 10480862 bytes
+ csgo/resource/csgo_latam.txt                 | Bin 10243078 -> 10244656 bytes
+ csgo/resource/csgo_portuguese.txt            | Bin 10375052 -> 10375052 bytes
+ csgo/resource/csgo_swedish.txt               | Bin 10090132 -> 10125886 bytes
+ csgo/resource/csgo_tchinese.txt              | Bin 7803490 -> 7803878 bytes
+ csgo/resource/csgo_turkish.txt               | Bin 10218420 -> 10222566 bytes
+ csgo/resource/csgo_ukrainian.txt             | Bin 10186896 -> 10186934 bytes
+ csgo/resource/csgo_vietnamese.txt            | Bin 9854778 -> 9856840 bytes
+ csgo/resource/overviews/de_anubis.txt        |  24 +++++++++----------
+ csgo/resource/overviews/de_anubis_radar.dds  |   2 +-
+ csgo/resource/overviews/de_mutiny.txt        |  34 +++++++++++++--------------
+ csgo/resource/overviews/de_mutiny_radar.dds  |   2 +-
+ csgo/steam.inf                               |  12 +++++-----
+ steamapps/appmanifest_730.acf                |  18 +++++++-------
+ steamapps/libraryfolders.vdf                 |   2 +-
+ 25 files changed, 65 insertions(+), 65 deletions(-)
