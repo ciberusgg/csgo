@@ -1,28 +1,29 @@
  bin/engine.dll                    |   2 +-
- bin/filesystem_stdio.dll          |   4 ++--
- bin/panorama.dll                  |   2 +-
- bin/scaleformui.dll               |   2 +-
- bin/steamnetworkingsockets.dll    |   4 ++--
- bin/vgui2.dll                     |   2 +-
- csgo.signatures                   |  20 ++++++++++----------
+ csgo.signatures                   |  10 +++++-----
  csgo/bin/client.dll               |   4 ++--
  csgo/bin/matchmaking.dll          |   2 +-
  csgo/bin/server.dll               |   4 ++--
- csgo/panorama/code.pbin           | Bin 3653954 -> 3653954 bytes
- csgo/resource/csgo_brazilian.txt  | Bin 10268532 -> 10268554 bytes
- csgo/resource/csgo_danish.txt     | Bin 9816228 -> 9817762 bytes
- csgo/resource/csgo_dutch.txt      | Bin 9686348 -> 9686762 bytes
- csgo/resource/csgo_french.txt     | Bin 10394694 -> 10409072 bytes
- csgo/resource/csgo_greek.txt      | Bin 10480862 -> 10481058 bytes
- csgo/resource/csgo_hungarian.txt  | Bin 10164170 -> 10164170 bytes
- csgo/resource/csgo_latam.txt      | Bin 10244656 -> 10247568 bytes
- csgo/resource/csgo_norwegian.txt  | Bin 9513760 -> 9515206 bytes
- csgo/resource/csgo_polish.txt     | Bin 10709198 -> 10709192 bytes
- csgo/resource/csgo_portuguese.txt | Bin 10375052 -> 10375098 bytes
- csgo/resource/csgo_tchinese.txt   | Bin 7803878 -> 7807936 bytes
- csgo/resource/csgo_turkish.txt    | Bin 10222566 -> 10222764 bytes
- csgo/resource/csgo_vietnamese.txt | Bin 9856840 -> 9860918 bytes
+ csgo/pak01_087.vpk                |   4 ++--
+ csgo/pak01_dir.vpk                |   2 +-
+ csgo/panorama/code.pbin           | Bin 3653954 -> 3654121 bytes
+ csgo/resource/csgo_bulgarian.txt  | Bin 10822224 -> 10822218 bytes
+ csgo/resource/csgo_czech.txt      | Bin 10142608 -> 10142608 bytes
+ csgo/resource/csgo_danish.txt     | Bin 9817762 -> 9823866 bytes
+ csgo/resource/csgo_dutch.txt      | Bin 9686762 -> 9710232 bytes
+ csgo/resource/csgo_finnish.txt    | Bin 10171932 -> 10171912 bytes
+ csgo/resource/csgo_greek.txt      | Bin 10481058 -> 10481086 bytes
+ csgo/resource/csgo_korean.txt     | Bin 5273840 -> 5273836 bytes
+ csgo/resource/csgo_koreana.txt    | Bin 5273840 -> 5273836 bytes
+ csgo/resource/csgo_latam.txt      | Bin 10247568 -> 10286558 bytes
+ csgo/resource/csgo_polish.txt     | Bin 10709192 -> 10709210 bytes
+ csgo/resource/csgo_portuguese.txt | Bin 10375098 -> 10375102 bytes
+ csgo/resource/csgo_spanish.txt    | Bin 10459208 -> 10459212 bytes
+ csgo/resource/csgo_swedish.txt    | Bin 10125886 -> 10126506 bytes
+ csgo/resource/csgo_tchinese.txt   | Bin 7807936 -> 7858470 bytes
+ csgo/resource/csgo_thai.txt       | Bin 9858252 -> 9858256 bytes
+ csgo/resource/csgo_ukrainian.txt  | Bin 10186934 -> 10186944 bytes
+ csgo/resource/csgo_vietnamese.txt | Bin 9860918 -> 9870724 bytes
  csgo/steam.inf                    |  12 ++++++------
  steamapps/appmanifest_730.acf     |  18 +++++++++---------
  steamapps/libraryfolders.vdf      |   2 +-
- 27 files changed, 39 insertions(+), 39 deletions(-)
+ 28 files changed, 30 insertions(+), 30 deletions(-)
