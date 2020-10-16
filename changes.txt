@@ -1,8 +1,5 @@
- bin/engine.dll                 |   2 +-
- bin/shaderapidx9.dll           |   2 +-
- csgo.signatures                |   8 ++++----
- csgo/bin/client.dll            |   2 +-
- csgo/resource/csgo_swedish.txt | Bin 10143422 -> 10145364 bytes
- csgo/steam.inf                 |  10 +++++-----
- steamapps/appmanifest_730.acf  |  16 ++++++++--------
- 7 files changed, 20 insertions(+), 20 deletions(-)
+ csgo.signatures               |  4 ++--
+ csgo/bin/client.dll           |  4 ++--
+ csgo/steam.inf                |  8 ++++----
+ steamapps/appmanifest_730.acf | 16 ++++++++--------
+ 4 files changed, 16 insertions(+), 16 deletions(-)
