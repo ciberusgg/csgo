@@ -1,5 +1,38 @@
- csgo.signatures               |  4 ++--
- csgo/bin/client.dll           |  4 ++--
- csgo/steam.inf                |  8 ++++----
- steamapps/appmanifest_730.acf | 16 ++++++++--------
- 4 files changed, 16 insertions(+), 16 deletions(-)
+ __steamcmd/linux32/crashhandler.so           |   2 +-
+ __steamcmd/linux32/steamclient.so            |   4 ++--
+ __steamcmd/linux32/steamcmd                  | Bin 5271696 -> 5271696 bytes
+ __steamcmd/linux32/steamconsole.so           |   2 +-
+ __steamcmd/linux64/steamclient.so            |   4 ++--
+ __steamcmd/package/steam_cmd_linux.installed |  16 ++++++++--------
+ __steamcmd/package/steam_cmd_linux.manifest  |  24 ++++++++++++------------
+ bin/engine.dll                               |   4 ++--
+ csgo.signatures                              |   6 +++---
+ csgo/bin/client.dll                          |   2 +-
+ csgo/resource/csgo_brazilian.txt             | Bin 10268554 -> 10269250 bytes
+ csgo/resource/csgo_bulgarian.txt             | Bin 10822218 -> 10843276 bytes
+ csgo/resource/csgo_czech.txt                 | Bin 10142642 -> 10144248 bytes
+ csgo/resource/csgo_danish.txt                | Bin 9823866 -> 9825338 bytes
+ csgo/resource/csgo_dutch.txt                 | Bin 9710232 -> 9710264 bytes
+ csgo/resource/csgo_finnish.txt               | Bin 10171912 -> 10173544 bytes
+ csgo/resource/csgo_french.txt                | Bin 10409072 -> 10410838 bytes
+ csgo/resource/csgo_german.txt                | Bin 10510764 -> 10512520 bytes
+ csgo/resource/csgo_greek.txt                 | Bin 10481086 -> 10482732 bytes
+ csgo/resource/csgo_hungarian.txt             | Bin 10164170 -> 10165664 bytes
+ csgo/resource/csgo_italian.txt               | Bin 10445248 -> 10446838 bytes
+ csgo/resource/csgo_latam.txt                 | Bin 10292900 -> 10411438 bytes
+ csgo/resource/csgo_norwegian.txt             | Bin 9515206 -> 9516812 bytes
+ csgo/resource/csgo_polish.txt                | Bin 10709210 -> 10710844 bytes
+ csgo/resource/csgo_portuguese.txt            | Bin 10375102 -> 10376696 bytes
+ csgo/resource/csgo_russian.txt               | Bin 10048568 -> 10050202 bytes
+ csgo/resource/csgo_schinese.txt              | Bin 8523242 -> 8523274 bytes
+ csgo/resource/csgo_spanish.txt               | Bin 10459212 -> 10460802 bytes
+ csgo/resource/csgo_swedish.txt               | Bin 10145364 -> 10172008 bytes
+ csgo/resource/csgo_tchinese.txt              | Bin 7858470 -> 7858724 bytes
+ csgo/resource/csgo_thai.txt                  | Bin 9858256 -> 9860998 bytes
+ csgo/resource/csgo_turkish.txt               | Bin 10222764 -> 10236688 bytes
+ csgo/resource/csgo_ukrainian.txt             | Bin 10186944 -> 10188482 bytes
+ csgo/resource/csgo_vietnamese.txt            | Bin 9870724 -> 9870756 bytes
+ csgo/steam.inf                               |  10 +++++-----
+ steamapps/appmanifest_730.acf                |  18 +++++++++---------
+ steamapps/libraryfolders.vdf                 |   2 +-
+ 37 files changed, 47 insertions(+), 47 deletions(-)
